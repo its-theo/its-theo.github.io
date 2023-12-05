@@ -1,0 +1,177 @@
+html {
+    scroll-behavior: smooth;
+  }
+body{
+    padding: 0;
+    margin: 0;
+    background-color: #ADD8E6;
+    color: black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    user-select: none;
+}
+div.line-top{
+    background-color: #ADD8E6;
+    width: 100%;
+    height: 10px;
+}
+div.navigation{
+    display: flex;
+    padding-left: 5px;
+}
+#navigation a{
+    margin-left: 15px;
+    margin-top: 38px;
+    text-decoration: none;
+    color: black;
+}
+#navigation a:hover{
+    transition: 100ms ease-in-out;
+    color: white;
+}
+#navigation h1{
+    margin-right: 20px;
+    margin-left: 10px;
+}
+div.center{
+    text-align: center;
+}
+div.space-1x{
+    margin-top: 100px;
+}
+div.space-2x{
+    margin-top: 200px;
+}
+#info img{
+    width: 220px;
+    margin-bottom: -40px;
+    animation: bounce ease-in-out 2s infinite;
+    margin-top: 0px;
+}
+@keyframes bounce {
+    0%{margin-top:0px; margin-bottom: -40px;}
+    50%{margin-top: 10px; margin-bottom: -50px;}
+}
+a.btn{
+    text-decoration: none;
+    color: black;
+    background-color: #ADD8E6;
+    padding: 5px 10px;
+    border-radius: 5px;
+    display: inline-block;
+    width: 70px;
+    cursor: pointer;
+}
+a.btn:hover{
+    transition: 100ms ease-in-out;
+    background-color: white;
+}
+div.flex{
+    display: flex;
+    margin-bottom: 50px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.card {
+    margin-left: auto;
+    margin-right: auto;
+    background-color: white;
+    border-radius: 20px;
+    padding: 30px 20px;
+    display: inline-block;
+    width: 300px;
+    height: fit-content;
+    transition: transform 0.3s ease-out; /* Add transition for a smooth effect */
+}
+
+.card:hover {
+    transform: scale(1.1); /* Enlarge the card on hover */
+}
+
+.header {
+    margin-bottom: 50px;
+}
+
+#card i {
+    size: 100px;
+}
+}
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-track {
+    background: white; 
+}
+
+::-webkit-scrollbar-thumb {
+    background: white; 
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: black; 
+}
+code{
+    background-color: #ADD8E6;
+    padding: 5px;
+    border-radius: 5px;
+    user-select: text;
+    margin-right: 3px;
+}
+.text-left{
+    text-align: left;
+}
+#end p{
+    margin-top: 100px;
+    user-select: text;
+}
+#goto-top h1{
+    margin-top: -5px;
+}
+#goto-top a{
+    text-decoration: none;
+    color: white;
+    display: block;
+    padding-top: 10px;
+}
+div.big-card{
+    background-color: white;
+    width: 90%;
+    border-radius: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+div.bubble {
+    background-color: white;
+    border-radius: 20px;
+    padding: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    max-width: 600px;
+    margin: 0 auto;
+    animation: zoomIn 1s ease-out; /* Add the animation property */
+}
+
+@keyframes zoomIn {
+    from {
+        transform: scale(0.5); /* Set the initial scale */
+        opacity: 0; /* Set the initial opacity if you want a fade-in effect */
+    }
+    to {
+        transform: scale(1); /* Set the final scale */
+        opacity: 1; /* Set the final opacity */
+    }
+}
+
+
+#goto-about a {
+    text-decoration: none;
+    color: white;
+    display: block;
+    padding-top: 10px;
+}
+
+#goto-about i {
+    margin-top: 10px; /* Adjust the margin to position the arrow */
+}
+
