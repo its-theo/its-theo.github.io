@@ -2,7 +2,7 @@
 body {
     margin: 1;
     font-family: "Montserrat", sans-serif;
-    background-color: rgb(241, 241, 241);
+    background-color: #2c2f33;
     
 }
 
@@ -138,7 +138,7 @@ header {
 
 .topName {
     
-    color: #212121;
+    color: white;
     margin-left: 3.5%;
     align-self: flex;
 
